@@ -1,1 +1,7 @@
 WAS to enter any number and check it is palindrum number or not.
+i=input("enter any string:")
+i2=i[::-1]
+if i==i2:
+    print("string is palindrom")
+else:
+    print("string is not palindrom")     
